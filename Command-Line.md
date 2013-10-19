@@ -43,9 +43,11 @@ Extracts from the specified archive.
 ### Examples
 
 Extracts all files from `theinstall.msi` into the current directory:
+
     lessmsi x theinstall.msi
 
 Extracts `a.txt` and `b.txt` from `c:\theinstall.msi` into the directory `c:\theinstallextracted`.
+
     lessmsi x c:\theinstall.msi c:\theinstallextracted\ a.txt b.txt
 
 
