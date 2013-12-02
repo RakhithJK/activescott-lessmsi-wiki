@@ -24,6 +24,7 @@ Opens the specified `msi_name` in the GUI.
 - `msi_name`: The name of the msi to open in the GUI
 - `path_to_extract`: Not supported.
 - `file_names`: Not supported.
+
 ### Examples
 
     lessmsi o theinstall.msi
