@@ -8,17 +8,23 @@
 
 MSI files are essentially a relational database. So the Tables are the key to MSI databases. The key reference page from Microsoft that documents what all the tables are is at http://msdn.microsoft.com/en-us/library/aa368259(v=vs.85).aspx
 
-### =Important Tables:=
+### Important Tables
 
 - [File Table](http://msdn.microsoft.com/en-us/library/aa368596(v=vs.85).aspx)
 - [Component Table](http://msdn.microsoft.com/en-us/library/aa368007(v=vs.85).aspx)
 - [Directory Table](http://msdn.microsoft.com/en-us/library/aa368295(v=vs.85).aspx)
 - [Media Table](http://msdn.microsoft.com/en-us/library/aa369801(v=vs.85).aspx)
+- [_Streams Table](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372919(v=vs.85).aspx)
+- [_Storages Table](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372916(v=vs.85).aspx)
+
+### Notes on `_Streams` and `_Storages` Tables
+...and how they related to embedded OLE Streams:
+* [Extract Files from Patches - Setup & Install by Heath Stewart](https://blogs.msdn.microsoft.com/heaths/2006/02/14/extract-files-from-patches/)
 
 
 ## CAB File Format Notes
 
-Just in case I ever stop procrastinating about implementing a CAB reader that is not dependent upon the Windows API below are some references that I have compiled on the CAB file format (this was done! http://code.google.com/p/lessmsi/source/list?repo=libmspack4n)
+~~Just in case I ever stop procrastinating about implementing a CAB reader that is not dependent upon the Windows API below are some references that I have compiled on the CAB file format~~ - **Been there done that:** https://github.com/activescott/libmspack4n
 - [Microsoft's Windows Cabinet API Reference](http://msdn.microsoft.com/en-us/library/gg547636(v=vs.85).aspx)
 - CAB File Format info from MS: http://msdn.microsoft.com/en-us/library/bb417343.aspx
 - [libmspack](http://www.cabextract.org.uk/libmspack/) Is an open C library that deals with CAB format on `*`nix. No dependencies.
